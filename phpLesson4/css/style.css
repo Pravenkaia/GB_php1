@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+#idForm {
+	margin-top: 50px;
+}
+input {
+	width: 100%; 
+	padding: 10px;
+}
+
+main {
+    width:700px;
+    margin: 0 auto;
+}
+
+article {
+	background-color: black;
+	padding: 5px;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+}

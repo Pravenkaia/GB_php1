@@ -8,6 +8,7 @@ echo '<p>Задание6. *<br>С помощью рекурсии организ
             //$pow степень
             if (!is_int($pow)) return 'степень не целое число';
             if ($pow == 0) return 1;
+			if ($pow == 1) return $val;
             if ($pow < 0 ) return power_all(1/$val, -$pow); //смена отрицательного знака на положительный
             return $val * power_all($val,$pow-1);
         }

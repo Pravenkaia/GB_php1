@@ -1,0 +1,338 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+input,textarea {
+	width: 100%;
+    padding: 10px 0;
+}
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+a {
+	color: #ccc;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+/* кнопка купить  */
+.btnBuy {
+	display: block;
+	padding:10px 0;
+	width: 100%;
+	background-color: orange;
+	color: white;
+	text-decoration: none; 
+	font-weight: bold;
+	}
+.btnBuy a:hover {
+	text-decoration: none;
+	background-color: grey;
+}
+main {
+    width:700px;
+    margin: 0 auto;
+}
+.ful {
+	width:100%;
+	margin: 10px 0;
+}
+
+.product_full {
+	 margin:10px;
+	 padding: 5px;
+	 
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+
+.width_50  {width: 50%;}
+
+article {
+    margin-top: 40px;
+	padding: 5px;
+}
+h1 {
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav {
+	background-color: orange;
+	color: white;
+}
+nav > ul {
+    text-transform: uppercase;
+	list-style: none; 
+    width:700px;
+  margin: 0 auto; 
+  padding-left: 0; 
+}
+nav a {
+	display:block;
+	padding: 20px;
+	color: white;
+	text-decoration: none; 
+	font-weight: bold;
+	}
+nav a:hover {
+	background-color: lightgreen;
+	color: grey;
+}
+nav > ul>li {
+	list-style: none; 
+	display:-moz-inline-stack;
+	display:inline-block;
+	
+}
+
+
+#formProd {
+	padding:10px;
+	background-color: #ccc; 
+}
+#formProd > div {
+	margin-top: 5px;
+}
+.divRow {
+	
+}
+#menu {
+	list-style: none; 
+}
+#menu li{
+	list-style: none; 
+	display:block;
+}
+#menu li div{
+	list-style: none; 
+	display:-moz-inline-stack;
+	display:inline-block;
+}
+
+#menu li input {
+	width:20px;
+}
+#idForm {
+	margin-top: 50px;
+}
+
+
+
+.twoForm {
+	width: 100%;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	
+
+}
+.divFormProd {
+	width: 450px;
+}
+
+.productsAdmin {
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+
+.productsAdmin div input {
+	width:20px;
+	padding:0;
+}
+
+.productsAdmin > div {
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	border: thin solid #ddd;
+}
+.productsAdmin > div > div{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.products {
+
+	margin-top: 50px;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+/* отдельный товар */
+.product{
+		margin: 0 30px;
+		
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+.flexStart {
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	text-align: center;
+}
+.flexStart > div {
+	margin-top:20px;
+}
+.cart {
+	margin: 50px 0 20px;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+.cartRow {
+	margin-top: 10px;
+	border: thin solid orange;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+/*
+	-moz-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+*/
+	-webkit-justify-content:flex-start;
+	justify-content:flex-start;
+	-webkit-align-items: center;
+	align-items: center;
+	
+-webkit-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+}
+.cartRow div {
+	margin: 10px;
+}
+.cartImg{
+	width: 150px;
+}
+.calc {
+	width:50px;
+	text-align: center;
+}
+.calc input {
+	width:50px;
+}
+.btnDel {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+.reg {
+	margin: 50px 0 20px;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+
+.reg > div {
+	margin: 10px 0;
+}
+
+.orders {
+	border:thin solid grey;
+	
+}
+.orders tr {
+	background: #eee;
+}
+.orders td {
+	border:thin solid grey;
+	
+}
+.btnPay , .btnCancel {
+	padding: 10px;
+}
+.btnPay {
+	background-color: orange;
+	color: white;
+}
+.btnCancel {
+	background-color: red;
+	color: white;
+}
+.state {
+	background-color: #eee;
+	padding: 0 20px;
+}

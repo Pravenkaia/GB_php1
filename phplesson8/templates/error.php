@@ -1,0 +1,1 @@
+<h3 class="h3_error"><? if (isset($error)) echo $error; else echo 'Неизвестная ошибка'; ?></h3>

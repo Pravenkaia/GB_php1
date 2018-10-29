@@ -1,0 +1,1 @@
+<h3 class="h3_ok"><? if (isset($ok)) echo $ok;  ?></h3>

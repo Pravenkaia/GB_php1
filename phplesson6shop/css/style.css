@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+input,textarea {
+	width: 100%;
+    padding: 10px 0;
+}
+a {
+	color: #ccc;
+	text-decoration: none;
+	font-weight: bold;
+}
+a :hover {
+	text-decoration: underline;
+}
+main {
+    width:700px;
+    margin: 0 auto;
+}
+.ful {
+	width:100%
+}
+article {
+    margin-top: 40px;
+	padding: 5px;
+}
+h1 {
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav {
+	background-color: orange;
+	color: white;
+}
+nav > ul {
+    text-transform: uppercase;
+	list-style: none; 
+    width:700px;
+  margin: 0 auto; 
+  padding-left: 0; 
+}
+nav a {
+	display:block;
+	padding: 20px;
+	color: white;
+	text-decoration: none; 
+	font-weight: bold;
+	}
+nav a:hover {
+	background-color: lightgreen;
+	color: grey;
+}
+nav > ul>li {
+	list-style: none; 
+	display:-moz-inline-stack;
+	display:inline-block;
+	
+}
+
+
+#formProd {
+	padding:10px;
+	background-color: #ccc; 
+}
+#formProd > div {
+	margin-top: 5px;
+}
+.divRow {
+	
+}
+#menu {
+	list-style: none; 
+}
+#menu li{
+	list-style: none; 
+	display:block;
+}
+#menu li div{
+	list-style: none; 
+	display:-moz-inline-stack;
+	display:inline-block;
+}
+
+#menu li input {
+	width:20px;
+}
+#idForm {
+	margin-top: 50px;
+}
+
+
+
+.twoForm {
+	width: 100%;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	
+
+}
+.divFormProd {
+	width: 450px;
+}
+
+.productsAdmin {
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+
+.productsAdmin div input {
+	width:20px;
+	padding:0;
+}
+
+.productsAdmin > div {
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	border: thin solid #ddd;
+}
+.productsAdmin > div > div{
+	text-align: center;
+	margin-top: 5px;
+}
+
+.products {
+
+	margin-top: 50px;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+}
+.products > div{
+		margin: 0 30px;
+}

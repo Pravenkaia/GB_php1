@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+h1 {
+    color: orange;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav {
+	background-color: orange;
+	color: white;
+}
+nav > ul {
+    text-transform: uppercase;
+	list-style: none; 
+    width:700px;
+  margin: 0 auto; 
+  padding-left: 0; 
+}
+nav a {
+	display:block;
+	padding: 20px;
+	color: white;
+	text-decoration: none; 
+	font-weight: bold;
+	}
+nav a:hover {
+	background-color: lightgreen;
+	color: grey;
+}
+nav > ul>li {
+	list-style: none; 
+	display:-moz-inline-stack;
+	display:inline-block;
+	
+}
+
+
+#idForm {
+	margin-top: 50px;
+}
+input {
+	width: 100%;
+    padding: 10px 0;
+}
+
+main {
+    width:700px;
+    margin: 0 auto;
+}
+article {
+    margin-top: 40px;
+	padding: 5px;
+}
+.thumbs {
+    background-color: orange;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+	
+	-webkit-justify-content: space-between;
+	justify-content: space-between; /*space-between;*/
+	
+	
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+
+}
+.thumbs > div {
+	width:110px;
+    height: 140px;
+	overflow: hidden;
+	position:relative;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.photo_big {
+    text-align: center;
+    position: relative;
+    display: -ms-flex;
+	display: -moz-flex;
+	display: -webkit-flex; 
+	display: flex;
+    
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.photo_big > div {
+	position:relative;
+
+}
+.like {
+	position:absolute;
+    width:30px;
+    height: 30px;
+    top:0;
+    left:0;
+    padding-top:8px;
+    background-image: url(/img/heart.png);
+    background-repeat: no-repeat;
+    font-size: 12px;
+    text-align:center;
+    opacity: 0.5;
+}
+
+.photoTitle {
+	position:absolute;
+    bottom: 10px;
+    left:0;
+    padding:10px;
+    background-color: white;
+    opacity: 0.5;
+    
+}
